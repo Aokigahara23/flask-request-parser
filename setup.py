@@ -1,9 +1,9 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name='flask-request-parser',
     version='1.0.0',
-    packages=find_packages(exclude=['tests', 'venv']),
+    packages=['request_parser'],
     install_requires=['Flask'],
     url='https://github.com/Aokigahara23/flask-request-parser',
     license='',
