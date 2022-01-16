@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='flask-request-parser',
     version='1.0.0',
-    packages=['request_parser'],
+    packages=['src'],
     install_requires=['Flask'],
     url='https://github.com/Aokigahara23/flask-request-parser',
     license='',

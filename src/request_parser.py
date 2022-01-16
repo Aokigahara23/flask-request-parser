@@ -5,7 +5,7 @@ from typing import Type, Tuple, Any
 from flask import request
 from werkzeug.exceptions import BadRequest
 
-from tools import HTTP_METHOD
+from src.tools import HTTP_METHOD
 
 
 class ArgLocation:

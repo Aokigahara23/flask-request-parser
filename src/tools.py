@@ -5,4 +5,3 @@ class HTTP_METHOD:
     PUT = 'PUT'
     PATCH = 'PATCH'
     DELETE = 'DELETE'
-
